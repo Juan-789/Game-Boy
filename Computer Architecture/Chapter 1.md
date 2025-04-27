@@ -1,7 +1,19 @@
-## 1.4
+## 1.4 Under the Covers
 The five classic components of a computer are input, output, memory datapath, and control. the last two may be combined and be called the processor.
 
-cache memory is a buffer for the DRAM memory. SRAM is faster but less dense, hence more expensive than DRAM
+Cache memory is a buffer for the DRAM memory. SRAM is faster but less dense, hence more expensive than DRAM
 
-abstraction between software and lowest-level software is called the instruction set architecture or, architecture. 
-the combination of the basic instruction set and the oS interface for programmers is called application binary interface (ABI)
+Abstraction between software and lowest-level software is called the instruction set architecture or, architecture. 
+The combination of the basic instruction set and the OS interface for programmers is called application binary interface (ABI)
+
+An instruction set architecture allows computer designers to talk about functions independently from the hardware
+
+Volatile memory, storage such as DRAM, that retains data only if it is receiving power.
+
+Nonvolatile is the negation of above
+
+Main memory or primary memory is volatile memory, DRAMs have dominated since 1975
+
+Secondary memory is nonvolatile memory, forms the next lower layer of the memory hierarchy. [[Magnetic Disks (Hard Disks)]]  dominated these due to their size, and form factor. Mobile devices use flash memory, a nonvolatile semiconductor memory instead of disks, while slower it is much cheaper, and power efficient, thus it is the standard for PMDs (personal mobile devices). Unlike disks and DRAM, flash memory bits wear out after 100,000 to 1,000,000 writes. Thus the fs must keep a counter of the writes and have a strategy to avoid wearing out storage, such as by moving popular data. Chapter 5 discusses more in details.
+
+
