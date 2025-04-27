@@ -35,7 +35,7 @@
 					- F register - flag
 						- Z - zero
 						- C - carry
-					- BCDHL
+					- BCDEHL
 						- BC
 						- DE
 						- HL

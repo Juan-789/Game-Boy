@@ -6,4 +6,8 @@
 ## Blogs
 - https://emudev.de/gameboy-emulator/overview/
 ## Docs
-- [Less detailed version of the GBCTR](https://rgbds.gbdev.io/docs/master/gbz80.7)
+- [Pandocs](https://gbdev.io/pandocs/)
+- [Game Boy: Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf)
+- [Less detailed version of the GBCTR](https://rgbds.gbdev.io/docs/master/gbz80.7) 
+## Suggestions
+- Make a chip8 emulator first
