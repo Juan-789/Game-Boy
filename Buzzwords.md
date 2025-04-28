@@ -1,1 +1,4 @@
 ### [[Registers]]
+### [[Magnetic Domains]]
+
+
